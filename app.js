@@ -1,3 +1,6 @@
-console.log(
-    "Hello, World! This is a test message from app.js."
-);
+// setting date 
+
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
+
+// close links 
